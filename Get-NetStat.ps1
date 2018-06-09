@@ -8,7 +8,7 @@
 .NOTES
     Author: JBear
 #>
-
+#Requires -Version 5.0
 param(
 
     [Parameter(ValueFromPipeline=$true)]
