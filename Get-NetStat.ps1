@@ -6,7 +6,7 @@
     Generate an object oriented NetStat report.
     
 .NOTES
-    Author: JBear
+    Author: JBear 6/9/2018
 #>
 #Requires -Version 5.0
 param(
