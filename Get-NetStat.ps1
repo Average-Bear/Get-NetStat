@@ -11,8 +11,8 @@
 
 param(
 
-    [Parameter(Mandatory=$true)]
-    [String[]]$Computername,
+    [Parameter(ValueFromPipeline=$true)]
+    [String[]]$Computername = $env:Computername,
 
     [Parameter(DontShow)]
     [Int]$j = 0,
